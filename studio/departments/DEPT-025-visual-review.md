@@ -30,7 +30,7 @@ agent_role: reviewer
 agent_execution_mode: visual_review
 agent_autonomy_level: medium
 agent_orchestration_tier: 10
-agent_launch_phase: phase_4_production_workers
+agent_launch_phase: phase_2_release_and_review_control
 agent_first_wave_candidate: false
 agent_runtime_boundary: department_scope
 agent_tool_needs:
@@ -303,7 +303,7 @@ medium
 
 ## Launch Phase
 
-phase_4_production_workers
+phase_2_release_and_review_control
 
 ## First-Wave Candidate
 

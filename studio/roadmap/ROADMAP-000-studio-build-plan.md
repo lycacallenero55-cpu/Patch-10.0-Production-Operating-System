@@ -90,14 +90,14 @@ All implementation work shall reference this roadmap.
 
 | ID | Department | Status |
 |----|------------|--------|
-| DEPT-011 | Novel Production | Planned |
-| DEPT-012 | Manhwa Production | Planned |
-| DEPT-013 | Anime Production | Planned |
-| DEPT-014 | Storyboard | Planned |
-| DEPT-015 | Character Art | Planned |
-| DEPT-016 | Environment Art | Planned |
-| DEPT-017 | Cinematic Production | Planned |
-| DEPT-018 | Marketing | Planned |
+| DEPT-011 | Novel Production | Approved |
+| DEPT-012 | Manhwa Production | Approved |
+| DEPT-013 | Anime Production | Approved |
+| DEPT-014 | Storyboard | Approved |
+| DEPT-015 | Character Art | Approved |
+| DEPT-016 | Environment Art | Approved |
+| DEPT-017 | Cinematic Production | Approved |
+| DEPT-018 | Marketing | Approved |
 
 ---
 
@@ -182,7 +182,7 @@ The studio shall continuously improve while producing the Patch 10.0 franchise.
 |--------|---------:|
 | Architecture | 100% |
 | Governance | 45% |
-| Departments | 37% |
+| Departments | 67% |
 | SOPs | 0% |
 | Templates | 0% |
 | Production Validation | 0% |

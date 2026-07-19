@@ -105,11 +105,11 @@ All implementation work shall reference this roadmap.
 
 | ID | Department | Status |
 |----|------------|--------|
-| DEPT-019 | Research | Planned |
-| DEPT-020 | Prompt Engineering | Planned |
-| DEPT-021 | Asset Management | Planned |
-| DEPT-022 | Automation | Planned |
-| DEPT-023 | Knowledge Management | Planned |
+| DEPT-019 | Research | Approved |
+| DEPT-020 | Prompt Engineering | Approved |
+| DEPT-021 | Asset Management | Approved |
+| DEPT-022 | Automation | Approved |
+| DEPT-023 | Knowledge Management | Approved |
 
 ---
 
@@ -117,10 +117,10 @@ All implementation work shall reference this roadmap.
 
 | ID | Department | Status |
 |----|------------|--------|
-| DEPT-024 | Canon Review | Planned |
-| DEPT-025 | Visual Review | Planned |
-| DEPT-026 | Technical QA | Planned |
-| DEPT-027 | Continuity Review | Planned |
+| DEPT-024 | Canon Review | Approved |
+| DEPT-025 | Visual Review | Approved |
+| DEPT-026 | Technical QA | Approved |
+| DEPT-027 | Continuity Review | Approved |
 
 ---
 
@@ -182,7 +182,7 @@ The studio shall continuously improve while producing the Patch 10.0 franchise.
 |--------|---------:|
 | Architecture | 100% |
 | Governance | 45% |
-| Departments | 67% |
+| Departments | 100% |
 | SOPs | 0% |
 | Templates | 0% |
 | Production Validation | 0% |

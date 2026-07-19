@@ -66,11 +66,11 @@ All implementation work shall reference this roadmap.
 
 | ID | Department | Status |
 |----|------------|--------|
-| DEPT-001 | Executive Producer | Planned |
-| DEPT-002 | Production Operations | Planned |
-| DEPT-003 | Information Architecture | Planned |
-| DEPT-004 | Quality Assurance | Planned |
-| DEPT-005 | Release Certification | Planned |
+| DEPT-001 | Executive Producer | Approved |
+| DEPT-002 | Production Operations | Approved |
+| DEPT-003 | Information Architecture | Approved |
+| DEPT-004 | Quality Assurance | Approved |
+| DEPT-005 | Release Certification | Approved |
 
 ---
 
@@ -182,7 +182,7 @@ The studio shall continuously improve while producing the Patch 10.0 franchise.
 |--------|---------:|
 | Architecture | 100% |
 | Governance | 45% |
-| Departments | 0% |
+| Departments | 19% |
 | SOPs | 0% |
 | Templates | 0% |
 | Production Validation | 0% |

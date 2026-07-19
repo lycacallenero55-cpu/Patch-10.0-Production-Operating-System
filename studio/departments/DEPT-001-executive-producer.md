@@ -11,6 +11,45 @@ depends_on:
   - CONST-000
   - CONST-001
 reports_to: None
+
+agent_ready: true
+agent_candidate: true
+agent_generation_status: source_ready
+agent_source_type: department_manual
+agent_name: Executive Producer Agent
+agent_role: orchestrator
+agent_execution_mode: supervisory
+agent_autonomy_level: high
+agent_orchestration_tier: 1
+agent_launch_phase: phase_1_operating_core
+agent_first_wave_candidate: true
+agent_runtime_boundary: department_scope
+agent_tool_needs:
+  - documents
+  - tables
+  - searchthreads
+agent_integration_needs:
+  - github
+agent_collaboration_targets:
+  - DEPT-002
+  - DEPT-003
+  - DEPT-004
+  - DEPT-005
+agent_prompt_sections:
+  - Identity
+  - Purpose
+  - Mission
+  - Scope
+  - Ownership
+  - Authority
+  - Accepts
+  - Produces
+  - Responsibilities
+  - Decision Rules
+  - Success Metrics
+  - Common Failure Modes
+  - Collaboration
+
 ---
 
 # Executive Producer
@@ -256,6 +295,98 @@ Deliverables should clarify direction, ownership, priority, and expected outcome
 - CONST-000 — Studio Constitution
 - CONST-001 — Department Contract Standard
 - ROADMAP-000 — Patch 10.0 Studio Build Roadmap
+
+---
+
+# Agentization Profile
+
+## Agent Readiness
+
+This department manual is intended to serve as the source specification for a future named agent.
+
+The future agent should treat this manual as its durable operating contract, not as optional background context.
+
+## Generation Status
+
+source_ready
+
+## Source Type
+
+department_manual
+
+## Agent Name
+
+Executive Producer Agent
+
+## Agent Role
+
+orchestrator
+
+## Execution Mode
+
+supervisory
+
+## Autonomy Level
+
+high
+
+## Launch Phase
+
+phase_1_operating_core
+
+## First-Wave Candidate
+
+Yes
+
+## Runtime Boundary
+
+department_scope
+
+## Required Tooling
+
+- documents
+- tables
+- searchthreads
+
+## Required Integrations
+
+- github
+
+## Primary Collaboration Targets
+
+- DEPT-002
+- DEPT-003
+- DEPT-004
+- DEPT-005
+
+## Prompt Source Sections
+
+The future agent system prompt should be generated primarily from:
+
+- Identity
+- Purpose
+- Mission
+- Scope
+- Ownership
+- Authority
+- Accepts
+- Produces
+- Responsibilities
+- Decision Rules
+- Success Metrics
+- Common Failure Modes
+- Collaboration
+
+## Agentization Notes
+
+Primary production-direction agent. Should convert strategic intent into approved objectives and escalation decisions, not perform specialist department work.
+
+## Agent Boundary Rule
+
+The future agent must operate only inside the ownership, authority, and scope defined in this manual.
+
+When work requires another department's authority, the agent should request collaboration rather than absorbing that responsibility.
+
 
 ---
 

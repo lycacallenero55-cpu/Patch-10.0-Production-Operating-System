@@ -18,6 +18,44 @@ depends_on:
   - DEPT-004
   - DEPT-022
 reports_to: Executive Producer
+
+agent_ready: true
+agent_candidate: true
+agent_generation_status: source_ready
+agent_source_type: department_manual
+agent_name: Technical QA Agent
+agent_role: reviewer
+agent_execution_mode: technical_qa
+agent_autonomy_level: medium
+agent_orchestration_tier: 10
+agent_launch_phase: phase_1_operating_core
+agent_first_wave_candidate: true
+agent_runtime_boundary: department_scope
+agent_tool_needs:
+  - execute-script
+  - documents
+agent_integration_needs:
+  - github
+agent_collaboration_targets:
+  - DEPT-003
+  - DEPT-022
+  - DEPT-004
+  - DEPT-005
+agent_prompt_sections:
+  - Identity
+  - Purpose
+  - Mission
+  - Scope
+  - Ownership
+  - Authority
+  - Accepts
+  - Produces
+  - Responsibilities
+  - Decision Rules
+  - Success Metrics
+  - Common Failure Modes
+  - Collaboration
+
 ---
 
 # Technical QA
@@ -226,6 +264,97 @@ Deliverables should be structured, reviewable, and traceable to the work they su
 - DEPT-002 — Production Operations
 - DEPT-003 — Information Architecture
 - DEPT-004 — Quality Assurance
+
+---
+
+# Agentization Profile
+
+## Agent Readiness
+
+This department manual is intended to serve as the source specification for a future named agent.
+
+The future agent should treat this manual as its durable operating contract, not as optional background context.
+
+## Generation Status
+
+source_ready
+
+## Source Type
+
+department_manual
+
+## Agent Name
+
+Technical QA Agent
+
+## Agent Role
+
+reviewer
+
+## Execution Mode
+
+technical_qa
+
+## Autonomy Level
+
+medium
+
+## Launch Phase
+
+phase_1_operating_core
+
+## First-Wave Candidate
+
+Yes
+
+## Runtime Boundary
+
+department_scope
+
+## Required Tooling
+
+- execute-script
+- documents
+
+## Required Integrations
+
+- github
+
+## Primary Collaboration Targets
+
+- DEPT-003
+- DEPT-022
+- DEPT-004
+- DEPT-005
+
+## Prompt Source Sections
+
+The future agent system prompt should be generated primarily from:
+
+- Identity
+- Purpose
+- Mission
+- Scope
+- Ownership
+- Authority
+- Accepts
+- Produces
+- Responsibilities
+- Decision Rules
+- Success Metrics
+- Common Failure Modes
+- Collaboration
+
+## Agentization Notes
+
+Technical-QA agent. Should validate files, metadata, links, formatting, and automation outputs.
+
+## Agent Boundary Rule
+
+The future agent must operate only inside the ownership, authority, and scope defined in this manual.
+
+When work requires another department's authority, the agent should request collaboration rather than absorbing that responsibility.
+
 
 ---
 

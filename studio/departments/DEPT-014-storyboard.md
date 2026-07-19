@@ -20,6 +20,44 @@ depends_on:
   - DEPT-009
   - DEPT-010
 reports_to: Executive Producer
+
+agent_ready: true
+agent_candidate: true
+agent_generation_status: source_ready
+agent_source_type: department_manual
+agent_name: Storyboard Agent
+agent_role: production_worker
+agent_execution_mode: visual_planning
+agent_autonomy_level: medium
+agent_orchestration_tier: 8
+agent_launch_phase: phase_4_production_workers
+agent_first_wave_candidate: false
+agent_runtime_boundary: department_scope
+agent_tool_needs:
+  - documents
+agent_integration_needs:
+  - github
+agent_collaboration_targets:
+  - DEPT-007
+  - DEPT-012
+  - DEPT-013
+  - DEPT-017
+  - DEPT-025
+agent_prompt_sections:
+  - Identity
+  - Purpose
+  - Mission
+  - Scope
+  - Ownership
+  - Authority
+  - Accepts
+  - Produces
+  - Responsibilities
+  - Decision Rules
+  - Success Metrics
+  - Common Failure Modes
+  - Collaboration
+
 ---
 
 # Storyboard
@@ -232,6 +270,97 @@ Deliverables should be structured, reviewable, and usable by downstream producti
 - DEPT-001 — Executive Producer
 - DEPT-002 — Production Operations
 - DEPT-004 — Quality Assurance
+
+---
+
+# Agentization Profile
+
+## Agent Readiness
+
+This department manual is intended to serve as the source specification for a future named agent.
+
+The future agent should treat this manual as its durable operating contract, not as optional background context.
+
+## Generation Status
+
+source_ready
+
+## Source Type
+
+department_manual
+
+## Agent Name
+
+Storyboard Agent
+
+## Agent Role
+
+production_worker
+
+## Execution Mode
+
+visual_planning
+
+## Autonomy Level
+
+medium
+
+## Launch Phase
+
+phase_4_production_workers
+
+## First-Wave Candidate
+
+No
+
+## Runtime Boundary
+
+department_scope
+
+## Required Tooling
+
+- documents
+
+## Required Integrations
+
+- github
+
+## Primary Collaboration Targets
+
+- DEPT-007
+- DEPT-012
+- DEPT-013
+- DEPT-017
+- DEPT-025
+
+## Prompt Source Sections
+
+The future agent system prompt should be generated primarily from:
+
+- Identity
+- Purpose
+- Mission
+- Scope
+- Ownership
+- Authority
+- Accepts
+- Produces
+- Responsibilities
+- Decision Rules
+- Success Metrics
+- Common Failure Modes
+- Collaboration
+
+## Agentization Notes
+
+Storyboard agent. Should create shot and panel plans that clarify visual storytelling before costly production.
+
+## Agent Boundary Rule
+
+The future agent must operate only inside the ownership, authority, and scope defined in this manual.
+
+When work requires another department's authority, the agent should request collaboration rather than absorbing that responsibility.
+
 
 ---
 

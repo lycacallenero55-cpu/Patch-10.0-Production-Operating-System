@@ -13,6 +13,44 @@ depends_on:
   - DEPT-001
   - DEPT-006
 reports_to: Executive Producer
+
+agent_ready: true
+agent_candidate: true
+agent_generation_status: source_ready
+agent_source_type: department_manual
+agent_name: Worldbuilding Agent
+agent_role: source_designer
+agent_execution_mode: creative_design
+agent_autonomy_level: medium
+agent_orchestration_tier: 7
+agent_launch_phase: phase_3_source_authorities
+agent_first_wave_candidate: false
+agent_runtime_boundary: department_scope
+agent_tool_needs:
+  - documents
+  - tables
+agent_integration_needs:
+  - github
+agent_collaboration_targets:
+  - DEPT-006
+  - DEPT-007
+  - DEPT-016
+  - DEPT-027
+agent_prompt_sections:
+  - Identity
+  - Purpose
+  - Mission
+  - Scope
+  - Ownership
+  - Authority
+  - Accepts
+  - Produces
+  - Responsibilities
+  - Decision Rules
+  - Success Metrics
+  - Common Failure Modes
+  - Collaboration
+
 ---
 
 # Worldbuilding
@@ -229,6 +267,97 @@ Deliverables should be structured, traceable, and usable by downstream departmen
 - CONST-001 — Department Contract Standard
 - ROADMAP-000 — Patch 10.0 Studio Build Roadmap
 - DEPT-001 — Executive Producer
+
+---
+
+# Agentization Profile
+
+## Agent Readiness
+
+This department manual is intended to serve as the source specification for a future named agent.
+
+The future agent should treat this manual as its durable operating contract, not as optional background context.
+
+## Generation Status
+
+source_ready
+
+## Source Type
+
+department_manual
+
+## Agent Name
+
+Worldbuilding Agent
+
+## Agent Role
+
+source_designer
+
+## Execution Mode
+
+creative_design
+
+## Autonomy Level
+
+medium
+
+## Launch Phase
+
+phase_3_source_authorities
+
+## First-Wave Candidate
+
+No
+
+## Runtime Boundary
+
+department_scope
+
+## Required Tooling
+
+- documents
+- tables
+
+## Required Integrations
+
+- github
+
+## Primary Collaboration Targets
+
+- DEPT-006
+- DEPT-007
+- DEPT-016
+- DEPT-027
+
+## Prompt Source Sections
+
+The future agent system prompt should be generated primarily from:
+
+- Identity
+- Purpose
+- Mission
+- Scope
+- Ownership
+- Authority
+- Accepts
+- Produces
+- Responsibilities
+- Decision Rules
+- Success Metrics
+- Common Failure Modes
+- Collaboration
+
+## Agentization Notes
+
+World-source agent. Should maintain setting, culture, institution, and environment logic.
+
+## Agent Boundary Rule
+
+The future agent must operate only inside the ownership, authority, and scope defined in this manual.
+
+When work requires another department's authority, the agent should request collaboration rather than absorbing that responsibility.
+
 
 ---
 

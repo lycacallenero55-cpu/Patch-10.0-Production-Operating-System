@@ -78,11 +78,11 @@ All implementation work shall reference this roadmap.
 
 | ID | Department | Status |
 |----|------------|--------|
-| DEPT-006 | Lore | Planned |
-| DEPT-007 | Narrative Design | Planned |
-| DEPT-008 | Character | Planned |
-| DEPT-009 | Worldbuilding | Planned |
-| DEPT-010 | Power System | Planned |
+| DEPT-006 | Lore | Approved |
+| DEPT-007 | Narrative Design | Approved |
+| DEPT-008 | Character | Approved |
+| DEPT-009 | Worldbuilding | Approved |
+| DEPT-010 | Power System | Approved |
 
 ---
 
@@ -182,7 +182,7 @@ The studio shall continuously improve while producing the Patch 10.0 franchise.
 |--------|---------:|
 | Architecture | 100% |
 | Governance | 45% |
-| Departments | 19% |
+| Departments | 37% |
 | SOPs | 0% |
 | Templates | 0% |
 | Production Validation | 0% |
